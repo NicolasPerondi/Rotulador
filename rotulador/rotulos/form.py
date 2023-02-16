@@ -1,5 +1,6 @@
 from django import forms
-from rotulador.rotulos.models import Rotulo
+from .models import Rotulo
+
 
 class PageForm(forms.ModelForm):
 
